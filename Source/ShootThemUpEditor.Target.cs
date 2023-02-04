@@ -11,5 +11,8 @@ public class ShootThemUpEditorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "ShootThemUp" } );
-	}
+
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1; //Mashuk: "There was an error about UE version"
+
+    }
 }
