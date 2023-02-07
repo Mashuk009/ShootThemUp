@@ -12,7 +12,8 @@ public class ShootThemUpEditorTarget : TargetRules
 
 		ExtraModuleNames.AddRange( new string[] { "ShootThemUp" } );
 
-		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1; //Mashuk: "There was an error about UE version"
+		IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_0; //Mashuk: "There was an error about UE version, I changed it to 5_1",
+                                                                   //Mashuk: "Later I had a problem with 'FDamageEvent' in 'TakeDamage', so I brought back a 5_0 value"
 
     }
 }
